@@ -2,6 +2,7 @@
 
 Welcome to my personal portfolio! I am Anu M., a final-year BCA student and aspiring Data Science and Machine Learning professional passionate about transforming data into meaningful insights and intelligent solutions.
 
+LIVE DEMO:https://ds-portfolio-29.netlify.app/
 ## About Me
 I am interested in Data Science, Python programming, Machine Learning, Artificial Intelligence, and data-driven problem-solving. I enjoy exploring datasets, discovering patterns, building predictive models, and continuously learning new technologies.
 
