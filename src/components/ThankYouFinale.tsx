@@ -6,7 +6,7 @@ export default function ThankYouFinale() {
   const prefersReducedMotion = useReducedMotion();
 
   return (
-    <footer className="relative overflow-hidden bg-[#060606] pt-24 pb-16 sm:pt-32 sm:pb-20">
+    <footer className="relative flex min-h-[85vh] items-center justify-center overflow-hidden bg-[#050505] py-20 sm:py-24">
       {/* Subtle radial crimson warmth at center */}
       <div
         aria-hidden="true"

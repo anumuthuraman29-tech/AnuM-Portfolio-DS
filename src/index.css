@@ -46,17 +46,22 @@
 }
 
 .portfolio-gradient-text {
-  background: linear-gradient(180deg, #EF1D32 0%, #D91629 52%, #5C060E 100%);
+  background: linear-gradient(180deg, #F01E30 0%, #C91222 48%, #54050C 92%, #240205 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
-.crimson-glow-backdrop {
-  background: radial-gradient(
-    circle at 50% 42%,
-    rgba(217, 22, 41, 0.24) 0%,
-    rgba(140, 11, 23, 0.1) 42%,
-    rgba(6, 6, 6, 0) 72%
-  );
+.editorial-hero-texture {
+  background-color: #050505;
+  background-image:
+    radial-gradient(circle at 50% 44%, rgba(201, 18, 34, 0.22) 0%, rgba(110, 8, 16, 0.08) 38%, rgba(5, 5, 5, 0) 68%),
+    radial-gradient(circle at 18% 70%, rgba(0, 0, 0, 0.65) 0%, transparent 50%),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.012) 0px,
+      rgba(255, 255, 255, 0.012) 1px,
+      transparent 1px,
+      transparent 3px
+    );
 }
