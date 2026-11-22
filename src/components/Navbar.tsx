@@ -19,7 +19,7 @@ export default function Navbar() {
         {/* Zone 1: Single text element wordmark */}
         <a
           href="#top"
-          className="font-display text-xl font-bold tracking-[0.06em] text-white whitespace-nowrap shrink-0 transition-colors hover:text-[#D91629] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#D91629]"
+          className="font-display text-xl font-bold tracking-[0.06em] text-[#EF1D32] whitespace-nowrap shrink-0 transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#D91629]"
         >
           ANU M.
         </a>
