@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Oswald", sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-crimson: #D91629;
+  --color-crimson-bright: #EF1D32;
+  --color-crimson-deep: #8C0B17;
+  --color-obsidian: #060606;
+  --color-surface: #0E0E11;
+  --color-surface-elevated: #141418;
+}
+
+@layer base {
+  html {
+    background-color: #060606;
+    color: #F5F5F7;
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    overflow-x: hidden;
+    background-color: #060606;
+  }
+}
+
+/* Custom thin crimson-accented scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #060606;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D91629;
+}
+
+.portfolio-gradient-text {
+  background: linear-gradient(180deg, #EF1D32 0%, #D91629 52%, #5C060E 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.crimson-glow-backdrop {
+  background: radial-gradient(
+    circle at 50% 42%,
+    rgba(217, 22, 41, 0.24) 0%,
+    rgba(140, 11, 23, 0.1) 42%,
+    rgba(6, 6, 6, 0) 72%
+  );
+}
